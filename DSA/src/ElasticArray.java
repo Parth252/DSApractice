@@ -64,5 +64,9 @@ public class ElasticArray {
         return resultArray;
     }
 
+    public void reverse(){
+
+    }
+
 
 }
