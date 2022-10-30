@@ -65,7 +65,12 @@ public class ElasticArray {
     }
 
     public void reverse(){
-
+        int[] reversedArray = new int[length];
+        for (int i = count; i > 0; i--) {
+            int j = Math.abs(i-count);
+            reversedArray[j] = array[i-1];
+        }
+        array=reversedArray;
     }
 
 

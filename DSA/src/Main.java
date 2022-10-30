@@ -9,13 +9,15 @@ public class Main {
         elasticArray.insert(30);
         elasticArray.insert(30);
         elasticArray.insert(50);
+        elasticArray.reverse();
+        elasticArray.print();
 
 
-        ElasticArray elasticArray1 = new ElasticArray(1);
-        elasticArray1.insert(20);
-        elasticArray1.insert(30);
-        elasticArray1.insert(3);
-        elasticArray.intersect(elasticArray1).print();
+//        ElasticArray elasticArray1 = new ElasticArray(1);
+//        elasticArray1.insert(20);
+//        elasticArray1.insert(30);
+//        elasticArray1.insert(3);
+//        elasticArray.intersect(elasticArray1).print();
 //        System.out.println(elasticArray.count);
     }
 }
