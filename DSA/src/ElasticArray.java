@@ -73,5 +73,14 @@ public class ElasticArray {
         array=reversedArray;
     }
 
+    public void insertAt(int index,int element){
+        this.insert(element);
+        for (int i = count-1; i > index; i--) {
+            int temp = array[i];
+            array[i] = array[i-1];
+            array[i-1] = temp;
+        }
+    }
+
 
 }

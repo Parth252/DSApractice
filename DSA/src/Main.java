@@ -9,7 +9,8 @@ public class Main {
         elasticArray.insert(30);
         elasticArray.insert(30);
         elasticArray.insert(50);
-        elasticArray.reverse();
+//        elasticArray.reverse();
+        elasticArray.insertAt(2,60);
         elasticArray.print();
 
 
